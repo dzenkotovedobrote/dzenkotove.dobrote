@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Powerpoint Usluge</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com/css3?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Dženkotove dobrote</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>    
+        </nav>
+
+        <div class="text-box">
+            <h1>Pri meni lahko dobiš SUPER Profesionalno narejene powerpointe za SUPER ceno.<br> Kontaktiraš pa me lahko preko tega E-Maila:<br>dzenkotove.dobrote@gmail.com<br>in mi poveš kakšen powerpoint potrebuješ.</h1>
+        </div>
+    </section>
+
+    <div class="opis-powerpoint">
+        <h5>Powepointe računam tako:<br>Število slajdov,<br>Vsebina,<br>Animacije.<br><br></h5>
+    </div>
+    <div class="dogovor">
+        <h5>Powerpoint ti pa pošljem približno 3 do 4 dni pred tvojo predstavitvijo.<br>Cena na slide je 0.50 brez professionalnih animacij ampak<br>običajno če izbereš professionalne animacije imaš več kot 25 slajdov in tu je cena na slide 0.75€.</h5>
+    </div>
+
+    
+        
+
+
+    <!---ADDING JAVASCRIPT CODE FUNCTION FOR BUTTONS-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+
+</body>
+</html>
